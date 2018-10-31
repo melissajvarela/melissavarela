@@ -1,0 +1,143 @@
+body{
+    margin:0 auto;
+    font-family: 'Mali', cursive;
+}
+.nav-bar{
+    background-color:#ff8000;  /*orange */
+    width:100%;
+    height:100px;
+    overflow:hidden;
+}
+
+.logo{
+    height: 100px;
+    width: 150px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.nav-list{
+    float:right;
+}
+
+.list-item{
+     height:40px;
+    width:70px;
+    text-align:center;
+    list-style-type:none;
+    display:inline-block;
+    margin-right:25px;
+    margin-top:14px;
+    background-color:#000000;  /* black */
+    border-radius:200px;
+}
+
+.list-item a{
+    text-decoration:none;
+    color:#ff9933; /*orange */
+    line-height:35px;
+}
+
+.list-item:hover{
+    background-color:#ffbf80; /*light orange */
+}
+
+.list-item a:hover{
+    color:#000000; /* black */
+}
+
+.banner{
+    background-image: url('../img/hweenbanner-1.jpg');
+    background-size: cover;
+    background-position:center;
+    height:400px;
+     width:100%; 
+    overflow:hidden;
+}
+
+.banner-text{
+    height:35px;
+    width:200px;
+    border:8px solid #000000;
+    color:#ff3300; /* dark orange */
+    background-color: rgba(255, 230, 179, .15); /* orange */
+    display:inline-block;
+    text-align:center;
+    line-height:4px;
+    margin-left:525px;
+    box-shadow:3px 3px #ffcc00;
+}
+
+.banner-text h1{
+    text-shadow:2px 2px #000000;
+}
+
+
+.content{
+    position:relative;
+    z-index:1;
+}
+
+.column{
+    height:600px;
+    width:48%;
+    border:8px solid #00cc00; /* green */
+    position:absolute;
+    margin:18px;
+  
+}
+
+.col-image{
+    height:300px;
+    width:350px;
+    padding-top:70px;
+    padding-left:110px;
+}
+
+.col2{
+      right:0;
+}
+
+.col2 p{
+    
+    text-align:justify;
+    padding:50px;
+    font-family: 'Boogaloo', cursive;
+}
+
+.footer{
+    Width:100%;
+    height:100px;
+    background-color:#ff8000;  /*orange */
+    margin-top:635px;
+}
+
+.footer-col{
+    width:32%;
+    display:inline-block;
+    text-align:center;
+    line-height:12px;
+}
+    
+.input{
+    border-radius:10px;
+}
+
+.fa-facebook-square{
+    color:#000099; /* dark blue */
+}
+
+.fa-instagram{
+    color:#ff0000; /* red */
+}
+
+.fa-twitter-square{
+    color:#0099ff; /* light blue */
+}
+
+.fa-snapchat-square{
+    color:#ffff33; /* yellow */
+}
+.copyright{
+    color:#4dff4d; /* bright green */
+}
